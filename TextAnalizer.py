@@ -79,7 +79,7 @@ while False:
 
         
         
-        
+    
 print("***SPECIÁLNÍ_ZNAKY***")
 for i in specialCharacters:
         print(f"{i}: {specialCharacters[i]}")

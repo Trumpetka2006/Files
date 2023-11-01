@@ -10,8 +10,7 @@ def string_shift(text: str, key: int):
         position += key
         position = position % 26
         resolut += chr(position +65)
-    return resolut
-    
+    return resolut  
 
 print(string_shift(input(), 4))
 print(string_shift("elsn", -4))
