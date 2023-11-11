@@ -58,24 +58,6 @@ print(f">Počet znaků: {resolut[0]} \
        \n>Počet speciálních znaků: {resolut[2]}")
 
 rat()
-while False:
-        #command = str(input("operation> "))
-        command = "rat"
-        if(command == "help"):
-            print("ls -i \tshow input text\nls -a \tshow all defined characters")
-            print("cont \tshow analyzed content")
-            print("rat \tshow ratio of characters in input")
-            print("find \tuse to find specific character")
-            print("clr \tuse to clear console")
-            print("ex \t show extreme characters")
-            print("end \texit python")
-        elif(command == "end"): break
-        elif(command == "ls -i"): print(inputText)
-        elif(command == "ls -a"): lsi()
-        elif(command == "clr"): os.system('clear')
-        elif(command == "rat"): rat()
-        elif(command == "cont"): cont()
-        elif(command == "ex"): ex(characters.values())
 
         
         
